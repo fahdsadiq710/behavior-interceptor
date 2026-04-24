@@ -1,4 +1,8 @@
 {
-  "buildCommand": "next build",
-  "outputDirectory": ".next"
+  "crons": [
+    {
+      "path": "/api/cron/dispatch",
+      "schedule": "* * * * *"
+    }
+  ]
 }

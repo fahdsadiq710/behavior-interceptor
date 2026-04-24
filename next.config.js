@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverComponentsExternalPackages: ['bcryptjs', 'node-cron'],
+    serverComponentsExternalPackages: ['bcryptjs'],
     instrumentationHook: true,
   },
   images: {
